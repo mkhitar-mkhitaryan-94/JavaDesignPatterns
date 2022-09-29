@@ -29,7 +29,7 @@ public class HotDrinkMachine {
         System.out.println("Available drinks:");
         for (int index = 0; index < namedFactories.size(); ++index) {
             Pair<String, HotDrinkFactory> item = namedFactories.get(index);
-            System.out.println("" + index + ": " + item.);
+           // System.out.println("" + index + ": " + item.);
         }
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         while (true) {
